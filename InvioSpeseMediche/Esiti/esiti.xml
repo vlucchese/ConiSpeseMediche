@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>   
+   <DettaglioErroriResponse xmlns="http://dettaglioerrori.p730.sanita.sogei.it/">
+         <DatiOutputRichiesta>
+            <esitoChiamata>0</esitoChiamata>
+            <esitiPositivi>
+               <dettagliEsito>
+                  <csv>UEsDBBQACAAIAHleQ1AAAAAAAAAAAAAAAAAVAAAAMjAwMTMxMTAzNzAwOTQxODYuY3N2rVBBbsNACLz3FfwgrOvEtTihNUmR7GUFmxzy/4d0XffQSj1mTgyDmIF8hepWXaWxqxFkW8DlplbkIBzrUUQwQWVv2hj00cnCvZJNI47xxfJ9k9IMrhqZV4FFo1po04f9J5fOvStNq0FU2R26lWYBcTffd0pk1+du8NN7yzl8s2linD/PmITSgJQw0cc3CC/TdHkfMZ0nwuGE6TRgminRPOKBgShwGGnl3wdBsQKucV875wi5lf1AXv+8CLT0gNzsBTnSS3J8AVBLBwhOlhS5xwAAAMQBAABQSwECFAAUAAgACAB5XkNQTpYUuccAAADEAQAAFQAAAAAAAAAAAAAAAAAAAAAAMjAwMTMxMTAzNzAwOTQxODYuY3N2UEsFBgAAAAABAAEAQwAAAAoBAAAAAA==</csv>
+               </dettagliEsito>
+            </esitiPositivi>
+         </DatiOutputRichiesta>
+      </DettaglioErroriResponse>
