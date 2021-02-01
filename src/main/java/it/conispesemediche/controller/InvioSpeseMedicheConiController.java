@@ -5,7 +5,6 @@ package it.conispesemediche.controller;
 
 import java.io.File;
 import java.sql.Timestamp;
-import java.util.List;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
@@ -116,17 +115,17 @@ private static final Logger logger = Logger.getLogger(InvioSpeseMedicheConiContr
     			String cfcittEnc = encrypt.getEncryptStringBase64(cfcitt);
     			ds.setCfCittadino(cfcittEnc);
     		}
-    		/*
-    		ds.setPagamentoTracciato("SI");
-    		ds.setTipoDocumento("F");
-    		ds.setFlagOpposizione("0");
-    		if(!CollectionUtils.isEmpty(ds.getVoceSpesa())) {
-        		for (Precompilata.DocumentoSpesa.VoceSpesa eachVoce : ds.getVoceSpesa()) {
-        			eachVoce.setAliquotaIVA(null);
-        			eachVoce.setNaturaIVA("N4");
-    			}
-    		}
-    		*/
+
+//    		ds.setPagamentoTracciato("SI");
+//    		ds.setTipoDocumento("F");
+//    		ds.setFlagOpposizione("0");
+//    		if(!CollectionUtils.isEmpty(ds.getVoceSpesa())) {
+//        		for (Precompilata.DocumentoSpesa.VoceSpesa eachVoce : ds.getVoceSpesa()) {
+//        			eachVoce.setAliquotaIVA(null);
+//        			eachVoce.setNaturaIVA("N4");
+//    			}
+//    		}
+
     	}
     	
     	Marshaller jaxbMarshaller = null;
